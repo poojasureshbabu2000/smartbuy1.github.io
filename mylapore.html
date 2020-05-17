@@ -1,0 +1,47 @@
+
+<html>
+<style>
+.btn-group button {
+  background-color:  #ff8080; /* Green background */
+  border: 1px solid orange; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+
+  body {
+  width: 100%;
+  height: 100%;
+  background-color:#ffb84d;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color:#ffc266;}
+  to {background-color:  #ff9900;}
+}
+
+
+
+</style>
+<body>
+<h1><center>!!!!!WELCOME TO MYLAPORE!!!!!</center></h1>
+<h2><center>CHOOSE YOUR NEARBY .......</center><br><br>
+  <center>
+<div class="btn-group">
+ <a href="mmarkets.html"><img src="sm.jfif" width="275" height="183"> <button>SUPER MARKETS</button><br><br>
+  <a href="mhotels.html"><img src="hotel.jpg" width="275" height="183"><button>HOTELS</button><br><br>
+  <a href="mmed.html"><img src="hospital.jpg" width="275" height="183"><button>HOSPITALS</button><br><br>
+</div>
+</center>
+</body></html>
